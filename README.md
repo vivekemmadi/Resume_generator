@@ -55,3 +55,47 @@ Running the Application
 1️⃣ Start the Backend Server
 Run the FastAPI server:
 uvicorn main:app --reload
+
+🌍 Frontend Usage
+1️⃣ Open frontend/index.html in a browser
+2️⃣ Fill in the resume form
+3️⃣ Click Generate Resume
+4️⃣ Download the PDF resume
+
+🚀 Deployment Guide (Optional)
+🔹 Deploy Backend on Render
+Create a new Render web service
+Connect your GitHub repo
+Set up a PostgreSQL or MongoDB instance
+Deploy with Gunicorn:
+
+🔹 Deploy Frontend on Netlify/Vercel
+Upload the frontend folder
+Deploy and get a Live Link
+
+🛠 Troubleshooting
+❌ Database Connection Error?
+
+Ensure MySQL/MongoDB is running
+Check DATABASE_URL in database.py
+❌ PDF Not Generating?
+
+Check if WeasyPrint is installed
+Try: pip install weasyprint
+📌 Future Enhancements
+⭐ User Authentication (Login/Signup)
+⭐ More Resume Templates
+⭐ Resume Editing Feature
+
+🤝 Contributing
+1️⃣ Fork the repository
+2️⃣ Create a new branch:
+git checkout -b feature-name
+git commit -m "Added new feature"
+4️⃣ Push to GitHub & create a Pull Request.
+
+📞 Contact
+✉️ Your Name - Vivek Emmadi
+📌 GitHub: https://github.com/vivekemmadi
+📌 LinkedIn: https://www.linkedin.com/in/viveke3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+
