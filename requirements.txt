@@ -1,0 +1,22 @@
+# FastAPI & Server
+fastapi
+uvicorn
+
+# Database
+sqlalchemy
+pymysql  # Required for MySQL (Remove if using MongoDB)
+pymongo  # Required for MongoDB (Remove if using MySQL)
+
+# Data Validation
+pydantic
+
+# API Requests
+requests
+
+# PDF Generation
+weasyprint
+jinja2
+
+# Optional (For better performance & security)
+gunicorn  # For production deployment
+python-dotenv  # If using environment variables for credentials
